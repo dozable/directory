@@ -1,0 +1,477 @@
+{
+  "base": "recipes/1/",
+  "date": "2026-11-01T17:56:26Z",
+  "files": [
+    {
+      "path": "agents/adk.json",
+      "sha256": "1c9d835bf2bed8c6c09cc47efc81a9ac9cbbc3de48335657828b8d59a0cb1140",
+      "size": 12222
+    },
+    {
+      "path": "agents/aichat.json",
+      "sha256": "0820f69d7e4298a3ba520c0a07d27d315e7347fd2d5aa83ee00ea20baa42909e",
+      "size": 11116
+    },
+    {
+      "path": "agents/antigravity.json",
+      "sha256": "33cffc709921d539705af3e094db8c4f659ba1a1e1075dfab248f81dab3213fc",
+      "size": 10026
+    },
+    {
+      "path": "agents/clai.json",
+      "sha256": "072b649fec415821e517ba0487d8a2d4d5e376cc5a404bded6254a2f8ae90adb",
+      "size": 21833
+    },
+    {
+      "path": "agents/cline.json",
+      "sha256": "156c362cad12d5473c055b0519d01ad52f95798c630becabe9002579f8ab3650",
+      "size": 12899
+    },
+    {
+      "path": "agents/codewhale.json",
+      "sha256": "d43639c77566426e4505acffdd3ed3ec7c56aba868bc4a8548facf2682c56d8e",
+      "size": 11285
+    },
+    {
+      "path": "agents/copilot.json",
+      "sha256": "cf2bfc3e6536ca0a2437efedcaa69fab6d65d8574870ab3ee7b895386a8941d3",
+      "size": 12886
+    },
+    {
+      "path": "agents/crush.json",
+      "sha256": "a8af1baf598dd52357fc2f5fd3b47019d835c699acd57eee1228895bde9e41fd",
+      "size": 13216
+    },
+    {
+      "path": "agents/dirac.json",
+      "sha256": "d52feb9771d17c3542bba0be886a08646ff511ea459c0113dba3282e085ee245",
+      "size": 11418
+    },
+    {
+      "path": "agents/docker-agent.json",
+      "sha256": "4e17d9e24a1f5ed618fc5b05d2572667dcdf577de36178e8ed69d1c7494ed187",
+      "size": 12487
+    },
+    {
+      "path": "agents/droid.json",
+      "sha256": "890438e688d4cadbc542744002e8b3ae36eed90e3afb035cebf712c8c012457d",
+      "size": 14019
+    },
+    {
+      "path": "agents/fabric.json",
+      "sha256": "2dcfbae89766774b3627048346ccdd045b40f7ca9d987ed7ca45013f34dfe31d",
+      "size": 12096
+    },
+    {
+      "path": "agents/gemini.json",
+      "sha256": "741d252d061b20f6b959e1420004b8b49bb75ffa7045cebfecabe7923ed819ba",
+      "size": 8686
+    },
+    {
+      "path": "agents/goose.json",
+      "sha256": "faaba88631e71bae96466f87d9ca482122ca5f5710730c28750c08d3c8558eab",
+      "size": 12299
+    },
+    {
+      "path": "agents/gptme.json",
+      "sha256": "4d3854b05516643e7988f096b066b621cad455df4968eb859e4aaec8cddc5323",
+      "size": 20217
+    },
+    {
+      "path": "agents/grok.json",
+      "sha256": "809f117f0e7eef9c38045353edb72a0adb11d776ac56fb9802ec209360613132",
+      "size": 11198
+    },
+    {
+      "path": "agents/kilo.json",
+      "sha256": "9d0fe3e523004b4f3aeae37fc3f322631be17d0934e298dce0d3146817a64cb8",
+      "size": 13980
+    },
+    {
+      "path": "agents/kimi-code.json",
+      "sha256": "75d929fef9e0ce9d71456b6b99eaa6590fb6132d84f5e37c7b47f304ffa75922",
+      "size": 12845
+    },
+    {
+      "path": "agents/letta-code.json",
+      "sha256": "74ba9091cf5db86759ac164c51a9aec1274be4bbd65f61b479564e10958df640",
+      "size": 12599
+    },
+    {
+      "path": "agents/llm.json",
+      "sha256": "f983d02cb256d15a315c0d17d0991fef4f0a48bf4ba566824f22eea6b19f021a",
+      "size": 11732
+    },
+    {
+      "path": "agents/maki.json",
+      "sha256": "7dc8d31e8a8bd59437503cb361b234aa630c28ecd30abbafddee9c5badf7bc69",
+      "size": 10389
+    },
+    {
+      "path": "agents/mimo-code.json",
+      "sha256": "e29a8564a4882ff8c111e7c240a601809f61f9d2c0d5558b6dc630983f1264f9",
+      "size": 13390
+    },
+    {
+      "path": "agents/mini-swe-agent.json",
+      "sha256": "fde62cc009e1e4fb8591ecb62951a734f75e025798c4fb6d8842e2735151dce7",
+      "size": 19962
+    },
+    {
+      "path": "agents/mistral-vibe.json",
+      "sha256": "d5379d241153f94f223bb4ddd6a3a15b9c33c9e0d62488176f0090e4cc7490fe",
+      "size": 22307
+    },
+    {
+      "path": "agents/nanobot.json",
+      "sha256": "a91182ce74834017c7f3458e1d5a15ddf223a91735fa68dc05855516b79427ed",
+      "size": 20652
+    },
+    {
+      "path": "agents/nanocoder.json",
+      "sha256": "40dddc65ab708cc8dc7dce5e7afc04b8af32009b3160af3a30018914ac4665bb",
+      "size": 13235
+    },
+    {
+      "path": "agents/omp.json",
+      "sha256": "d3e40218cf252cb4d22e321f435b646c694068bf6bc0379702478a2371648ff1",
+      "size": 13380
+    },
+    {
+      "path": "agents/open-interpreter.json",
+      "sha256": "1defeb1d525663e6b0bd607edece900c8f2ed8fdab0bf83c56cb3dd04fdf4c74",
+      "size": 12127
+    },
+    {
+      "path": "agents/openclaw.json",
+      "sha256": "49e41a8ebe8c1d3a9a770949a990d4bd7da60371b5d445981dbf07dfff8af703",
+      "size": 10816
+    },
+    {
+      "path": "agents/opencode.json",
+      "sha256": "773c202affff8aa3b5c479584cfa7082d0adcf9b92e29a17223dad06f696fb66",
+      "size": 14610
+    },
+    {
+      "path": "agents/opencode2.json",
+      "sha256": "ba22019e516bfda2016bd9a13a9ac2eabae6376f7f219ed051b16ae347a38b9f",
+      "size": 14111
+    },
+    {
+      "path": "agents/openhands.json",
+      "sha256": "eba2b69804d08e008ab391dfb254dcd9752f91477572b28eae85e626df936c9d",
+      "size": 12175
+    },
+    {
+      "path": "agents/promptfoo.json",
+      "sha256": "54d45af2a4bb2331004188e9f72d596188d931fd93be1204d23d46cb7d560637",
+      "size": 10589
+    },
+    {
+      "path": "agents/qwen-code.json",
+      "sha256": "fbc14311bf6887cb4978a08915db18b5f5b43485f7a1f56e2b525dafb7e7dd84",
+      "size": 10569
+    },
+    {
+      "path": "agents/shell-gpt.json",
+      "sha256": "8450334fd5d3516b6b54ce5e3116fdcd07d7c54526cb02e92d99ef21a328e7b3",
+      "size": 13112
+    },
+    {
+      "path": "agents/smolagents.json",
+      "sha256": "4e5aad5c5f3f93bdcfd10250c4c785792c2aac18fc648da138ae5736459e7808",
+      "size": 14957
+    },
+    {
+      "path": "agents/stitch.json",
+      "sha256": "2c0b5398a49b1772373a4b0e8d8d86e744db3d42caf8bfaeccbb0d1ba3ae033a",
+      "size": 8110
+    },
+    {
+      "path": "agents/tau.json",
+      "sha256": "2549f616a0b9c63318a0c70d06c3d434ecaffe253da719f3a70d2549163c948e",
+      "size": 14091
+    },
+    {
+      "path": "agents/tgpt.json",
+      "sha256": "b33a00294d5d117953d55174ddb41a79611781886a0492dddb0ea13ed761ce2a",
+      "size": 9680
+    },
+    {
+      "path": "agents/zeroclaw.json",
+      "sha256": "9888c31e9370fee1de3bf8aaada4e4257715e3dc64a9ab5c0aa686f48d39a79b",
+      "size": 11064
+    },
+    {
+      "path": "gateways.json",
+      "sha256": "f1ab392cfff362449a5f0dd1e9a167a990f01febf545b8aef1b345c3d0562b64",
+      "size": 1963
+    },
+    {
+      "path": "icons/adk.svg",
+      "sha256": "9765a99f9882f57d9b33408110b4456b213c70f590680f8328a661b03c013737",
+      "size": 310
+    },
+    {
+      "path": "icons/aichat.svg",
+      "sha256": "9cd92cd562b5debaff8c9aa4d3d6e41c26704b36bd47e983b3c47ec64a9110f1",
+      "size": 367
+    },
+    {
+      "path": "icons/anthropic.svg",
+      "sha256": "064f2214ba63e0de285a36a30177cdcfe92be88f447146ec044552b03fc9329f",
+      "size": 332
+    },
+    {
+      "path": "icons/antigravity.svg",
+      "sha256": "ce04da0477d3c95fae1f503940e1e261a85031cb89e5a8cedb3e2eccb348be03",
+      "size": 263
+    },
+    {
+      "path": "icons/clai.svg",
+      "sha256": "de2a6f45f2a3a0dea35d00529930d00bedfdb6d522dab61939547fc3e0f531e0",
+      "size": 394
+    },
+    {
+      "path": "icons/claude-code.svg",
+      "sha256": "0e0146f55349a3bfbeac7c5729e134a9c61810000ffdcdfa342725b463779a12",
+      "size": 359
+    },
+    {
+      "path": "icons/cline.svg",
+      "sha256": "1ba3e5bb4dd5deb47da1584315505dd9ff0ee33cf96a967b5dbe898d0ca862f7",
+      "size": 284
+    },
+    {
+      "path": "icons/codebuddy.svg",
+      "sha256": "0fbb7ae1c432d19b4c137adedb4664739288f24869fc6adf8310a16d433c8de2",
+      "size": 348
+    },
+    {
+      "path": "icons/codewhale.svg",
+      "sha256": "fb1ac680e4bac2f44c05fce4ac9b5653e1bcc88751cb0ea0b9586927710c40ae",
+      "size": 290
+    },
+    {
+      "path": "icons/codex.svg",
+      "sha256": "7629ea4133d938503cfa0cf726f3591d0309cfb8e289d3468ebb829765ab1cd5",
+      "size": 308
+    },
+    {
+      "path": "icons/copilot.svg",
+      "sha256": "9a253df680d89018ccc16cc970b83784732b641f0520d4bb112cb9948d1e19c9",
+      "size": 345
+    },
+    {
+      "path": "icons/crush.svg",
+      "sha256": "1bd4245be19ec0ede4d0f8276e8f795b6b8827f28e0407872b10aa7416986274",
+      "size": 361
+    },
+    {
+      "path": "icons/dirac.svg",
+      "sha256": "2b9f984fb8ba4ac6c99bd927cc07fc78511589479c1c7a6ea840ae299f7a73d4",
+      "size": 294
+    },
+    {
+      "path": "icons/docker-agent.svg",
+      "sha256": "c1c15a4d3339f2985b2a889ebcc608ae8c5bdbb6445faf21da84219c7b726c01",
+      "size": 390
+    },
+    {
+      "path": "icons/droid.svg",
+      "sha256": "57a87810c26812cd0a6279cf22eecd89d4afb9b4aec93ab8160d35d5ef8047c7",
+      "size": 300
+    },
+    {
+      "path": "icons/every-code.svg",
+      "sha256": "4fcb86a45f0a01de708aa1575beaa924220c2cc0ac6c87b9b37bb25279d9f1e4",
+      "size": 372
+    },
+    {
+      "path": "icons/fabric.svg",
+      "sha256": "d9dc8cffc5f6b66257949bfefe8538af7340ec08937c8130e639aba12e410309",
+      "size": 273
+    },
+    {
+      "path": "icons/gemini-cli.svg",
+      "sha256": "55f4a7ff3072e59f7f8d663903b872f6d0b2787efb73b9e5c7944dbc5a1ca299",
+      "size": 402
+    },
+    {
+      "path": "icons/google.svg",
+      "sha256": "a4a9491a32c14859bb9c546be4fa6f69cb122de2cf5674c73682d0eed338cd83",
+      "size": 274
+    },
+    {
+      "path": "icons/goose.svg",
+      "sha256": "a4a9491a32c14859bb9c546be4fa6f69cb122de2cf5674c73682d0eed338cd83",
+      "size": 274
+    },
+    {
+      "path": "icons/gptme.svg",
+      "sha256": "a24334ae677c8694b275f2afc25f04359f44270b936b5acdbe22fcdd26a51ea7",
+      "size": 382
+    },
+    {
+      "path": "icons/grok-build.svg",
+      "sha256": "ddfcaa967988d21ad7976ce2ca78fddb5e7ee26e186a18b47ab84d0d4e5d0dae",
+      "size": 272
+    },
+    {
+      "path": "icons/icons.json",
+      "sha256": "02cb215bd2d257465490b478cf73aa75bd44689a0865a5021d7b63b19a863e4d",
+      "size": 23461
+    },
+    {
+      "path": "icons/kilo.svg",
+      "sha256": "03796a81552edfad1065699c5b896251f02a92389fde266adae4f2b6c0ec567e",
+      "size": 337
+    },
+    {
+      "path": "icons/kimi-code.svg",
+      "sha256": "ab1fc89b2965ca615540671fc12e71caac030d559614e7874ab293de012aab91",
+      "size": 297
+    },
+    {
+      "path": "icons/letta-code.svg",
+      "sha256": "0006419d050d629085bcddbb3494c67224bb392f1f55a481e9376954569d66c5",
+      "size": 296
+    },
+    {
+      "path": "icons/llm.svg",
+      "sha256": "ce56f43da628bb37b1f34f8e83fc7bba7cb885d3c0945b3d6d8e11ca72d82df4",
+      "size": 259
+    },
+    {
+      "path": "icons/maki.svg",
+      "sha256": "2f7afcba61152c5ee3b77392673f35148566d8bfd06cd514a43c4c2282c24683",
+      "size": 380
+    },
+    {
+      "path": "icons/mimo-code.svg",
+      "sha256": "313937838862e9c91ebf6f54a5acf68eb4381b4695ec202ea8a07a32389e4c6b",
+      "size": 299
+    },
+    {
+      "path": "icons/mini-swe-agent.svg",
+      "sha256": "8216fa3b9fbcccefe7d06ff16f542b9ed08ac161257096f991bbfc3cb651d718",
+      "size": 442
+    },
+    {
+      "path": "icons/mistral-vibe.svg",
+      "sha256": "6189bd7765137a33b390dce2157658f93ee2b1f38ce6e187d7402dd87d3b6ce8",
+      "size": 286
+    },
+    {
+      "path": "icons/nanobot.svg",
+      "sha256": "f9477b279e6fe35801548fc819af10f1a17de9400cab8d0a7c25afd0636b9618",
+      "size": 341
+    },
+    {
+      "path": "icons/nanocoder.svg",
+      "sha256": "7b702308ca27d28e3f76d9cdd35c7c42b781b219753a39c251f1d59952ef0dbd",
+      "size": 275
+    },
+    {
+      "path": "icons/omp.svg",
+      "sha256": "3268cd5618b4cd9e226421f2291f9cdeb512caa0adcdaad1b1b4e551f6da61b9",
+      "size": 306
+    },
+    {
+      "path": "icons/open-interpreter.svg",
+      "sha256": "8b264bb734a41da7ea0fa703043a6e385eeedf33296ebd66654e1bf88c2f8b37",
+      "size": 310
+    },
+    {
+      "path": "icons/openai.svg",
+      "sha256": "71fff199eefb8319d091904a19f4b5490c9b462d3e1edb20dfa47d6627360321",
+      "size": 322
+    },
+    {
+      "path": "icons/openclaw.svg",
+      "sha256": "326bb495e1d3423dc864f0630016e09f0e5ad7899d5fd4ad7c95a3b2e1b40d7d",
+      "size": 302
+    },
+    {
+      "path": "icons/opencode.svg",
+      "sha256": "949ebf2370f3a17f4880c96616a47287bd4a079019f2bbce15ce213e055a3c98",
+      "size": 334
+    },
+    {
+      "path": "icons/openhands.svg",
+      "sha256": "a1bd3744e808c6c2e444b853ea9a1debb09fbab4e5a82afda94cd2fa93c928ad",
+      "size": 326
+    },
+    {
+      "path": "icons/pi.svg",
+      "sha256": "becb6dec6f622a2c6deb49fae3cdf8b1244d34a959a14e577728b92229f1a06c",
+      "size": 303
+    },
+    {
+      "path": "icons/promptfoo.svg",
+      "sha256": "a546538922b453e945e6cf1375997bec4132129c063538070c2eab8155aa6160",
+      "size": 350
+    },
+    {
+      "path": "icons/qwen-code.svg",
+      "sha256": "4fae97c37038b02cbd65fe72b4b14fa3ad9afb38ede92e5ffc43a69854e58d37",
+      "size": 303
+    },
+    {
+      "path": "icons/shell-gpt.svg",
+      "sha256": "c4accd1fc7e958a7217f4b94320895072ecf04478842073dd1e2445475e3b977",
+      "size": 385
+    },
+    {
+      "path": "icons/smolagents.svg",
+      "sha256": "e381c0f5df8ad0a2243de1c429180489add15fcb18d38e2f4a5efa4be6509274",
+      "size": 377
+    },
+    {
+      "path": "icons/stitch.svg",
+      "sha256": "eededbe75c0114ceffc56e76b36b90ab2429470880aa4b0622d370f3fb45c410",
+      "size": 357
+    },
+    {
+      "path": "icons/tau.svg",
+      "sha256": "f5f3101f002e08b24fc3c69bc40a863dbb3e52d53530d74a54ed4148c6e65672",
+      "size": 267
+    },
+    {
+      "path": "icons/tgpt.svg",
+      "sha256": "eb6c58c64ed9999533b3a54bacf8498b93abaa688af327933d4a60984c76e953",
+      "size": 247
+    },
+    {
+      "path": "icons/xai.svg",
+      "sha256": "be144a3ce6b7d69452759a9380d16f3db9c6c84f66413cb0a366e4c586d442b5",
+      "size": 251
+    },
+    {
+      "path": "icons/zeroclaw.svg",
+      "sha256": "a08ad788aafa9fa72badb6d9c932c990835a3603e514f235ccf8597082d5d519",
+      "size": 277
+    },
+    {
+      "path": "known.json",
+      "sha256": "8ffeec28d68219c7b55244a8b434f14450b5316fef12d0770c5ac30ea9b9d0c3",
+      "size": 35835
+    },
+    {
+      "path": "providers.json",
+      "sha256": "2123b08c441d6bf6653963cc92b255a71d57e69a639925ccaac4852e44161a54",
+      "size": 18627
+    },
+    {
+      "path": "tags.json",
+      "sha256": "b726b906606ced2242aca85f93d26e42457481d429d4abcdabad1b69c12f1b7f",
+      "size": 4023
+    }
+  ],
+  "format": 1,
+  "minimum_doz": "0.37.37",
+  "product": "doz-recipes",
+  "serial": 1,
+  "signature": "GMfcaEQoesJyYc+CifZv/vDDHu3VmEzjA3umJl2QIG2VZPPWCaBISIS2dU82vGFF+s3H5h9alyNTAy8bMKl8BQ==",
+  "source_version": "0.37.37"
+}

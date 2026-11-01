@@ -1,0 +1,4868 @@
+{
+  "dozable" : {
+    "version" : "0.37.37"
+  },
+  "entries" : [
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "workflow"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/activepieces/activepieces",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "activepieces",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Activepieces",
+      "reason" : "a web app run with Docker: needs Docker inside the sandbox and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Activepieces"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "browser-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/vercel-labs/agent-browser",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "agent-browser",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Vercel Labs",
+      "reason" : "needs a headless Chromium in the image: it drives a browser for other agents",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "agent-browser"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "browser-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/bytedance/UI-TARS-desktop",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "agent-tars",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "ByteDance",
+      "reason" : "needs a headless Chromium in the image and its web UI's port forwarded to the Mac",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Agent TARS CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "personal-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/agent0ai/agent-zero",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "agent-zero",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "agent0ai",
+      "reason" : "it ships as a Docker image with its own desktop and a web UI: needs Docker images as a base and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Agent Zero"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "terminal-tool"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/BuilderIO/ai-shell",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "ai-shell",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Builder.io",
+      "reason" : "it reads its key only from its own config file, where Dozable cannot put a key's placeholder yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "AI Shell"
+    },
+    {
+      "aliases" : [
+        "aider-chat"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://aider.chat",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "aider",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Aider-AI",
+      "reason" : "its current release (0.86.2) needs Python 3.10 to 3.12; the Python Dozable installs tools into is 3.13",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Aider"
+    },
+    {
+      "aliases" : [
+        "ampcode"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://ampcode.com",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "amp",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Amp",
+      "reason" : "its models run only through Amp's own service, with an Amp API key (sgamp_…), which Dozable cannot hold for you yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Amp"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://ante.run",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "ante",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Antigma Labs",
+      "reason" : "its source is Apache-2.0 but the binary it installs comes under preview terms, which need a reading before Dozable installs it for you",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Ante"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "chat-app"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/Mintplex-Labs/anything-llm",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "anythingllm",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Mintplex Labs",
+      "reason" : "a web app shipped as a Docker image: needs Docker images as a base and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "AnythingLLM"
+    },
+    {
+      "aliases" : [
+        "augment"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://docs.augmentcode.com/cli/reference",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "auggie",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Augment Code",
+      "reason" : "it runs only on Augment's own models, signed in with an Augment session (not an API key), which Dozable cannot hold for you yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Augment Auggie"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "personal-agent",
+        "workflow"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/Significant-Gravitas/AutoGPT",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "autogpt",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Significant Gravitas",
+      "reason" : "a multi-service platform run with Docker: needs Docker inside the sandbox and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "AutoGPT Platform"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "browser-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/browser-use/browser-use",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 24L24.7 24Q29.6 24 29.6 19.75Q29.6 15.5 24.7 15.5L17 15.5L17 32.5L25.4 32.5Q31 32.5 31 28.25Q31 24 25.4 24",
+        "id" : "letter-b",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "browser-use",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "browser-use",
+      "reason" : "needs a headless Chromium in the image: it drives a browser for every task",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "browser-use"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "terminal-tool"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/bakks/butterfish",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 24L24.7 24Q29.6 24 29.6 19.75Q29.6 15.5 24.7 15.5L17 15.5L17 32.5L25.4 32.5Q31 32.5 31 28.25Q31 24 25.4 24",
+        "id" : "letter-b",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "butterfish",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "bakks",
+      "reason" : "it publishes no linux-arm64 release to pin (it is installed with go install), and it keeps its key in its own file",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Butterfish"
+    },
+    {
+      "aliases" : [
+        "claude"
+      ],
+      "auth" : [
+        {
+          "account" : "a Claude subscription (Pro, Max, Team or Enterprise)",
+          "checked" : "2026-10-12",
+          "kind" : "vendor-sign-in",
+          "note" : "This Mac's own Claude Code login (the account mac, read on the Mac and renewed by the Mac's Claude Code), or a token from claude setup-token. The sign-in stays on the Mac — the sandbox gets a placeholder."
+        },
+        {
+          "checked" : "2026-10-12",
+          "keys_page" : "https://platform.claude.com/settings/keys",
+          "kind" : "api-key",
+          "provider" : "anthropic"
+        }
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "default_base" : "node",
+      "gateways" : [
+        {
+          "gateway" : "openrouter",
+          "level" : "documented",
+          "offered" : true
+        }
+      ],
+      "homepage" : "https://code.claude.com",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M21.18 19.05A4.5 7 0 1 0 21.18 28.95 M33.18 19.05A4.5 7 0 1 0 33.18 28.95",
+        "id" : "claude-code",
+        "kind" : "product",
+        "mono" : "icons/claude-code.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "claude-code",
+      "install" : {
+        "kind" : "builtin",
+        "source" : "@anthropic-ai/claude-code",
+        "version" : "2.1.227"
+      },
+      "keys" : [
+        {
+          "accounts" : [
+            "mac",
+            "setup-token",
+            "api-key"
+          ],
+          "provider" : "anthropic"
+        }
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Anthropic",
+      "qualified" : "anthropic/claude-code",
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+
+        ],
+        "update" : [
+          {
+            "host" : "downloads.claude.ai"
+          },
+          {
+            "host" : "registry.npmjs.org",
+            "paths" : [
+              "/@anthropic-ai/claude-code",
+              "/@anthropic-ai%2fclaude-code",
+              "/@anthropic-ai%2Fclaude-code"
+            ]
+          }
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+        {
+          "level" : "documented",
+          "tag" : "multi-vendor-models"
+        },
+        {
+          "level" : "documented",
+          "tag" : "gateway:openrouter"
+        },
+        {
+          "level" : "documented",
+          "tag" : "api-key"
+        },
+        {
+          "level" : "documented",
+          "tag" : "vendor-sign-in"
+        },
+        {
+          "level" : "no",
+          "tag" : "no-account"
+        },
+        {
+          "level" : "unknown",
+          "tag" : "free-tier"
+        },
+        {
+          "level" : "verified",
+          "tag" : "status"
+        },
+        {
+          "level" : "verified",
+          "tag" : "resume"
+        },
+        {
+          "level" : "verified",
+          "tag" : "musl"
+        },
+        {
+          "level" : "no",
+          "tag" : "open-source"
+        },
+        {
+          "level" : "documented",
+          "tag" : "headless"
+        }
+      ],
+      "title" : "Claude Code",
+      "try" : "doz try claude-code"
+    },
+    {
+      "aliases" : [
+        "cbc",
+        "codebuddy-code"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-15",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://www.codebuddy.ai/docs/cli",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 28.95 30.01",
+        "id" : "letter-c",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "codebuddy",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Tencent Cloud",
+      "reason" : "its first screen asks you to sign in to a CodeBuddy account, even with Dozable's model set, and Dozable cannot offer that sign-in",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "CodeBuddy Code"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+        {
+          "account" : "a ChatGPT plan",
+          "checked" : "2026-10-12",
+          "kind" : "vendor-sign-in",
+          "note" : "This Mac's own Codex login (the account mac, read-only), or Dozable's own ChatGPT sign-in on this Mac (doz account add NAME --chatgpt). The sign-in stays on the Mac — the sandbox's auth.json holds placeholders."
+        },
+        {
+          "checked" : "2026-10-12",
+          "keys_page" : "https://platform.openai.com/api-keys",
+          "kind" : "api-key",
+          "provider" : "openai"
+        }
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "default_base" : "node",
+      "gateways" : [
+        {
+          "gateway" : "openrouter",
+          "level" : "documented",
+          "offered" : false
+        }
+      ],
+      "homepage" : "https://github.com/openai/codex",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M24 4.5A19.5 19.5 0 1 1 24 43.5A19.5 19.5 0 1 1 24 4.5Z M21.18 19.05A4.5 7 0 1 0 21.18 28.95 M25.5 22.6L34.5 31M34.5 22.6L25.5 31",
+        "id" : "codex",
+        "kind" : "product",
+        "mono" : "icons/codex.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "codex",
+      "install" : {
+        "kind" : "builtin",
+        "source" : "@openai/codex",
+        "version" : "0.160.1"
+      },
+      "keys" : [
+        {
+          "accounts" : [
+            "codex-mac",
+            "chatgpt",
+            "openai-key"
+          ],
+          "provider" : "openai"
+        }
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "OpenAI",
+      "qualified" : "openai/codex",
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "chatgpt.com"
+          },
+          {
+            "host" : "api.openai.com"
+          },
+          {
+            "host" : "ab.chatgpt.com"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+        {
+          "level" : "documented",
+          "tag" : "multi-vendor-models"
+        },
+        {
+          "level" : "documented",
+          "tag" : "gateway:openrouter"
+        },
+        {
+          "level" : "documented",
+          "tag" : "api-key"
+        },
+        {
+          "level" : "documented",
+          "tag" : "vendor-sign-in"
+        },
+        {
+          "level" : "no",
+          "tag" : "no-account"
+        },
+        {
+          "level" : "unknown",
+          "tag" : "free-tier"
+        },
+        {
+          "level" : "no",
+          "tag" : "status"
+        },
+        {
+          "level" : "verified",
+          "tag" : "resume"
+        },
+        {
+          "level" : "verified",
+          "tag" : "musl"
+        },
+        {
+          "level" : "documented",
+          "tag" : "open-source"
+        },
+        {
+          "level" : "documented",
+          "tag" : "headless"
+        }
+      ],
+      "title" : "Codex",
+      "try" : "doz try codex"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "browser-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "anthropic",
+        "kind" : "vendor",
+        "mono" : "icons/anthropic.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "computer-use-demo",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Anthropic",
+      "reason" : "it ships as a Docker image with a Linux desktop: needs Docker images as a base and its web UI's port forwarded to the Mac",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Anthropic computer-use demo"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/IBM/mcp-context-forge",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 28.95 30.01",
+        "id" : "letter-c",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "contextforge",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "IBM",
+      "reason" : "a gateway with a web admin: needs a background service and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "ContextForge MCP Gateway"
+    },
+    {
+      "aliases" : [
+        "cn",
+        "continue"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/continuedev/continue/tree/main/extensions/cli",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 28.95 30.01",
+        "id" : "letter-c",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "continue-cli",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Continue",
+      "reason" : "it is set up through a Continue Hub sign-in; a key-only setup with Dozable's placeholder is not checked yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Continue CLI"
+    },
+    {
+      "aliases" : [
+        "cortex"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M30.3 18.05Q28.2 15.5 24 15.5Q17.7 15.5 17.7 20.09Q17.7 24 24 24Q30.3 24 30.3 28.25Q30.3 32.5 24 32.5Q19.8 32.5 17.7 29.95",
+        "id" : "letter-s",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "cortex-code",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Snowflake",
+      "reason" : "it runs on Snowflake's own models through a Snowflake account connection, which Dozable cannot hold for you yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Snowflake Cortex Code"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "browser-agent",
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/unclecode/crawl4ai",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 28.95 30.01",
+        "id" : "letter-c",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "crawl4ai",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "unclecode",
+      "reason" : "needs a headless Chromium in the image: it crawls with a real browser",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "crawl4ai"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "framework"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/crewAIInc/crewAI",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 28.95 30.01",
+        "id" : "letter-c",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "crewai",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "CrewAI",
+      "reason" : "its CLI builds each new crew's own environment with uv from PyPI at run time, which no permission offers yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "CrewAI"
+    },
+    {
+      "aliases" : [
+        "cursor",
+        "cursor-agent"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-12",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://cursor.com/cli",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 28.95 30.01",
+        "id" : "letter-c",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "cursor-cli",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Anysphere",
+      "reason" : "it signs in with a Cursor account, which Dozable cannot hold on the Mac for it yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Cursor CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/microsoft/data-formulator",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L23.3 32.5Q31 32.5 31 24Q31 15.5 23.3 15.5Z",
+        "id" : "letter-d",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "data-formulator",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Microsoft",
+      "reason" : "a web app: needs its port forwarded to the Mac's browser and a background service",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Data Formulator"
+    },
+    {
+      "aliases" : [
+        "devin"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://docs.devin.ai/cli",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L23.3 32.5Q31 32.5 31 24Q31 15.5 23.3 15.5Z",
+        "id" : "letter-d",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "devin-cli",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Cognition",
+      "reason" : "it runs only on Devin's own service, with a token from the Devin web app, which Dozable cannot hold for you yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Devin CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "workflow"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/langgenius/dify",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L23.3 32.5Q31 32.5 31 24Q31 15.5 23.3 15.5Z",
+        "id" : "letter-d",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "dify",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "LangGenius",
+      "reason" : "a multi-container platform run with Docker Compose: needs Docker inside the sandbox and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Dify"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/docker/mcp-gateway",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L23.3 32.5Q31 32.5 31 24Q31 15.5 23.3 15.5Z",
+        "id" : "letter-d",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "docker-mcp-gateway",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Docker",
+      "reason" : "a Docker CLI plugin: needs Docker inside the sandbox",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Docker MCP Gateway"
+    },
+    {
+      "aliases" : [
+        "eliza"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "framework",
+        "personal-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/elizaOS/eliza",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M31 15.5L17 15.5L17 32.5L31 32.5M17 24L27.5 24",
+        "id" : "letter-e",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "elizaos",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "elizaOS",
+      "reason" : "it runs from its source with Bun, as a background service with a web UI: needs a release to pin, a background service and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "elizaOS"
+    },
+    {
+      "aliases" : [
+        "coder",
+        "just-every-code"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-15",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/just-every/code",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M31 15.5L17 15.5L17 32.5L31 32.5M17 24L27.5 24",
+        "id" : "letter-e",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "every-code",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "just-every",
+      "reason" : "it shows a ChatGPT sign-in whenever it has no login file, whatever provider is set; Dozable will add it when it honours the configured provider",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Every Code"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/firecrawl/firecrawl",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M31 15.5L17 15.5L17 32.5M17 24L27.5 24",
+        "id" : "letter-f",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "firecrawl",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Firecrawl",
+      "reason" : "self-hosting is a multi-service stack run with Docker: needs Docker inside the sandbox",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Firecrawl (self-hosted)"
+    },
+    {
+      "aliases" : [
+        "forge"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://forgecode.dev",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M31 15.5L17 15.5L17 32.5M17 24L27.5 24",
+        "id" : "letter-f",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "forgecode",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Tailcall",
+      "reason" : "it no longer reads an API key from the environment: it copies the key into its own credentials file, where the placeholder Dozable gives each session would go stale — Dozable has no per-session way to write it there yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "ForgeCode"
+    },
+    {
+      "aliases" : [
+        "fx-sh"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://fx.sh",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M31 15.5L17 15.5L17 32.5M17 24L27.5 24",
+        "id" : "letter-f",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "fx",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Vercel Labs",
+      "reason" : "an early preview (0.0.13) that talks to Vercel AI Gateway (or a Grok or ChatGPT sign-in) only over the gateway's own AI SDK protocol, not the OpenAI or Anthropic shapes Dozable checks a gateway key with; Dozable will add it when it can check that protocol",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "fx"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "evaluation"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/NVIDIA/garak",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 30.06 28.25L30.06 24.85L24.7 24.85",
+        "id" : "letter-g",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "garak",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "NVIDIA",
+      "reason" : "its install pulls PyTorch with NVIDIA's CUDA libraries, several GB on linux-arm64 for a sandbox that has no GPU; a CPU-only PyTorch needs a second package index",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "garak"
+    },
+    {
+      "aliases" : [
+        "duo"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://docs.gitlab.com/user/gitlab_duo_cli/",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 30.06 28.25L30.06 24.85L24.7 24.85",
+        "id" : "letter-g",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "gitlab-duo-cli",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "GitLab",
+      "reason" : "it runs only on GitLab's own model service (GitLab 19.2 or later, Premium or Ultimate), signed in to GitLab, which Dozable cannot hold for you yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "GitLab Duo CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/assafelovic/gpt-researcher",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.95 17.99A7 8.5 0 1 0 30.06 28.25L30.06 24.85L24.7 24.85",
+        "id" : "letter-g",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "gpt-researcher",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "assafelovic",
+      "reason" : "its web research needs a Tavily key (a provider Dozable does not offer yet), and its UI a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "GPT Researcher"
+    },
+    {
+      "aliases" : [
+        "hermes-agent"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "personal-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/NousResearch/hermes-agent",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5M31 15.5L31 32.5M17 24L31 24",
+        "id" : "letter-h",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "hermes",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Nous Research",
+      "reason" : "Nous distributes it only through its own installer (a source checkout it sets up with uv), Docker or Nix — its build refuses to make an installable package — so Dozable cannot pin it yet; its gateway, dashboard and browser tools also need a background service, a forwarded port and a headless Chromium",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Hermes Agent"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "personal-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/nearai/ironclaw",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5L24 32.5M19.8 15.5L28.2 15.5M19.8 32.5L28.2 32.5",
+        "id" : "letter-i",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "ironclaw",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "NEAR AI",
+      "reason" : "it keeps its model key in its own encrypted store, typed at a prompt, where Dozable cannot put a key's placeholder yet; its service and web UI need a background service and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "IronClaw"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/1jehuang/jcode",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.2 15.5L28.2 27.4Q28.2 32.5 23.3 32.5Q18.4 32.5 18.4 27.4",
+        "id" : "letter-j",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "jcode",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "1jehuang",
+      "reason" : "its linux-arm64 build needs glibc 2.38 or later (Ubuntu 24.04); Dozable's agent images are on Debian 12 (glibc 2.36), and an agent on the Ubuntu base is not set up yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "jcode"
+    },
+    {
+      "aliases" : [
+        "junie-cli"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://junie.jetbrains.com",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.2 15.5L28.2 27.4Q28.2 32.5 23.3 32.5Q18.4 32.5 18.4 27.4",
+        "id" : "letter-j",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "junie",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "JetBrains",
+      "reason" : "a Java application in a 340 MB release folder: Dozable installs one program file, and its bundled Java runtime does not trust the sandbox's certificate authority yet; its own-key mode (an xAI key, no JetBrains account) reached xAI in a sandbox once both were done by hand",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "JetBrains Junie CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/jupyterlab/jupyter-ai",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M28.2 15.5L28.2 27.4Q28.2 32.5 23.3 32.5Q18.4 32.5 18.4 27.4",
+        "id" : "letter-j",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "jupyter-ai",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Project Jupyter",
+      "reason" : "it runs inside JupyterLab, a web app: needs its port forwarded to the Mac's browser and a background service",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Jupyter AI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research",
+        "personal-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/khoj-ai/khoj",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5M31 15.5L17 25.7M21.2 22.64L31 32.5",
+        "id" : "letter-k",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "khoj",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Khoj",
+      "reason" : "a web app: needs its port forwarded to the Mac's browser and a background service",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Khoj"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/getkimchi/kimchi",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5M31 15.5L17 25.7M21.2 22.64L31 32.5",
+        "id" : "letter-k",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "kimchi",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "CAST AI",
+      "reason" : "it runs on CAST AI's own model service with a Kimchi key, which Dozable cannot hold for you yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Kimchi"
+    },
+    {
+      "aliases" : [
+        "amazon-q",
+        "kiro"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://kiro.dev/cli",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5M31 15.5L17 25.7M21.2 22.64L31 32.5",
+        "id" : "letter-k",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "kiro-cli",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Amazon Web Services",
+      "reason" : "it runs only on Kiro's own models, with a Kiro API key from a paid plan (Pro and above) or an AWS sign-in, which Dozable cannot hold for you yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Kiro CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/shareAI-lab/Kode-cli",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5M31 15.5L17 25.7M21.2 22.64L31 32.5",
+        "id" : "letter-k",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "kode",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "shareAI-lab",
+      "reason" : "it keeps the model's API key in its own settings file (~/.kode.json; an imported fromEnv key is copied in as text), where the placeholder Dozable gives each session would go stale — Dozable has no per-session way to write it there yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Kode"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "workflow"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/langflow-ai/langflow",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "langflow",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Langflow",
+      "reason" : "its install is some 450 Python packages, more than a sandbox's disk holds beside it; its web page itself can now open on the Mac (doz open)",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Langflow"
+    },
+    {
+      "aliases" : [
+        "langgraph"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "framework"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/langchain-ai/langgraph",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "langgraph-cli",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "LangChain",
+      "reason" : "its dev server is used from a browser (LangGraph Studio): needs its port forwarded to the Mac",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "LangGraph CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "chat-app"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/LibreChat-AI/LibreChat",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "librechat",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "LibreChat",
+      "reason" : "a web app with MongoDB and other services: needs Docker inside the sandbox (or several background services) and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "LibreChat"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "framework"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/BerriAI/litellm",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "litellm",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "BerriAI",
+      "reason" : "a gateway for other programs: needs a background service and its port forwarded to the Mac",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "LiteLLM proxy"
+    },
+    {
+      "aliases" : [
+        "llama-server"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "local-models"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/ggml-org/llama.cpp",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "llama-cpp",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "ggml",
+      "reason" : "it runs models inside the sandbox: needs a background service, its web UI's port forwarded to the Mac and room for model downloads",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "llama.cpp server"
+    },
+    {
+      "aliases" : [
+        "lms"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "local-models"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/lmstudio-ai/lms",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "llmster",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "LM Studio",
+      "reason" : "a model server daemon: needs a background service and room for model downloads (the Mac's own LM Studio is faster, which a sandbox cannot reach yet)",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "LM Studio llmster"
+    },
+    {
+      "aliases" : [
+        "lobechat"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "chat-app"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/lobehub/lobehub",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "lobehub",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "LobeHub",
+      "reason" : "a web app shipped as a Docker image: needs Docker images as a base and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "LobeHub"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/LearningCircuit/local-deep-research",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "local-deep-research",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "LearningCircuit",
+      "reason" : "a web app: needs its port forwarded to the Mac's browser and a background service",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Local Deep Research"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "local-models"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/mudler/LocalAI",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L17 32.5L31 32.5",
+        "id" : "letter-l",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "localai",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "mudler",
+      "reason" : "it runs models inside the sandbox: needs a background service, a forwarded port and room for model downloads",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "LocalAI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "framework"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/mastra-ai/mastra",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L24 25.7L31 15.5L31 32.5",
+        "id" : "letter-m",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "mastra",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Mastra",
+      "reason" : "a new project is scaffolded from npm at run time, and its Studio is a web page: needs npm at run time and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Mastra"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/modelcontextprotocol/inspector",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L24 25.7L31 15.5L31 32.5",
+        "id" : "letter-m",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "mcp-inspector",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Model Context Protocol",
+      "reason" : "talks to MCP servers, not a model — Dozable cannot try a tool with no model key yet — and the servers it starts come from npm or PyPI at run time; its web UI can now open on the Mac (doz open)",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "MCP Inspector"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/sparfenyuk/mcp-proxy",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L24 25.7L31 15.5L31 32.5",
+        "id" : "letter-m",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "mcp-proxy",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "sparfenyuk",
+      "reason" : "it bridges MCP servers to clients elsewhere: needs a forwarded port (or an MCP bridge)",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "mcp-proxy"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/modelcontextprotocol/servers",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L31 15.5M24 15.5L24 32.5",
+        "id" : "letter-t",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "mcp-servers",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "various",
+      "reason" : "needs an MCP bridge, so a client on the Mac can start a server inside a sandbox, and npm/PyPI at run time",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Third-party MCP servers"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/mcpjungle/MCPJungle",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L24 25.7L31 15.5L31 32.5",
+        "id" : "letter-m",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "mcpjungle",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "MCPJungle",
+      "reason" : "an MCP registry server: needs a background service and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "MCPJungle"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/open-webui/mcpo",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L24 25.7L31 15.5L31 32.5",
+        "id" : "letter-m",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "mcpo",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Open WebUI",
+      "reason" : "it serves MCP servers as an HTTP API for other programs: needs a background service and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "mcpo"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/metatool-ai/metamcp",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L24 25.7L31 15.5L31 32.5",
+        "id" : "letter-m",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "metamcp",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "metatool-ai",
+      "reason" : "shipped as a Docker image with a web UI: needs Docker images as a base and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "MetaMCP"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "workflow"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/n8n-io/n8n",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L31 32.5L31 15.5",
+        "id" : "letter-n",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "n8n",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "n8n",
+      "reason" : "its install builds native modules (sqlite3, isolated-vm) with a compiler, which Dozable's npm install does not run; its web page itself can now open on the Mac (doz open)",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "n8n"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "personal-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/qwibitai/nanoclaw",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L31 32.5L31 15.5",
+        "id" : "letter-n",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "nanoclaw",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "qwibitai",
+      "reason" : "it runs each session in its own Docker container: needs Docker inside the sandbox",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "NanoClaw"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "local-models"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/ollama/ollama",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5A7 8.5 0 1 0 24 32.5A7 8.5 0 1 0 24 15.5",
+        "id" : "letter-o",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "ollama",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Ollama",
+      "reason" : "it runs models inside the sandbox: needs a background service and room for model downloads (on the CPU; the Mac's own Ollama is faster, which a sandbox cannot reach yet)",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Ollama"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/lfnovo/open-notebook",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5A7 8.5 0 1 0 24 32.5A7 8.5 0 1 0 24 15.5",
+        "id" : "letter-o",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "open-notebook",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "lfnovo",
+      "reason" : "a web app with SurrealDB, run with Docker Compose: needs Docker inside the sandbox and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Open Notebook"
+    },
+    {
+      "aliases" : [
+        "openwebui"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "chat-app",
+        "local-models"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/open-webui/open-webui",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5A7 8.5 0 1 0 24 32.5A7 8.5 0 1 0 24 15.5",
+        "id" : "letter-o",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "open-webui",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Open WebUI",
+      "reason" : "its release needs Python 3.12 (the Python Dozable installs tools into is 3.13) and PyTorch on the CPU for its embeddings (sentence-transformers) — its web page itself can now open on the Mac (doz open)",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Open WebUI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://console.x.ai/",
+          "kind" : "api-key",
+          "note" : "OpenCode' own xai provider on xAI (the default, model xai/grok-build-0.1); for the others, a provider of Dozable's in its config (OPENCODE_CONFIG): OpenAI-compatible at the chosen source's base URL, or Anthropic, the key read from the variable its placeholder is in.",
+          "provider" : "xai"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://console.anthropic.com/settings/keys",
+          "kind" : "api-key",
+          "note" : "OpenCode through Anthropic: doz try opencode --provider anthropic (or choose it in the try setup); the model with --model.",
+          "provider" : "anthropic"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://platform.openai.com/api-keys",
+          "kind" : "api-key",
+          "note" : "OpenCode through OpenAI: doz try opencode --provider openai (or choose it in the try setup); the model with --model.",
+          "provider" : "openai"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://aistudio.google.com/apikey",
+          "kind" : "api-key",
+          "note" : "OpenCode through Google AI: doz try opencode --provider google (or choose it in the try setup); the model with --model.",
+          "provider" : "google"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://openrouter.ai/keys",
+          "kind" : "api-key",
+          "note" : "OpenCode through OpenRouter: doz try opencode --gateway openrouter (or choose it in the try setup); the model with --model.",
+          "provider" : "openrouter"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://vercel.com/docs/ai-gateway/authentication-and-byok",
+          "kind" : "api-key",
+          "note" : "OpenCode through Vercel AI Gateway: doz try opencode --gateway vercel-ai-gateway (or choose it in the try setup); the model with --model.",
+          "provider" : "vercel-ai-gateway"
+        },
+        {
+          "account" : "an OpenCode Zen, Anthropic, OpenAI or GitHub Copilot account",
+          "checked" : "2026-10-14",
+          "kind" : "vendor-sign-in",
+          "note" : "OpenCode can sign in itself (opencode auth login); that sign-in would live in the sandbox's own state, not on the Mac — Dozable does not offer it yet."
+        }
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "default_base" : "debian",
+      "gateways" : [
+        {
+          "gateway" : "openrouter",
+          "level" : "verified",
+          "offered" : true
+        }
+      ],
+      "homepage" : "https://github.com/anomalyco/opencode",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5A7 8.5 0 1 0 24 32.5A7 8.5 0 1 0 24 15.5",
+        "id" : "opencode",
+        "kind" : "product",
+        "mono" : "icons/opencode.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "opencode",
+      "install" : {
+        "kind" : "npm-platform-binary",
+        "source" : "opencode-ai",
+        "version" : "1.19.0"
+      },
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "xai"
+        }
+      ],
+      "kind" : "agent",
+      "limits" : [
+        {
+          "reason" : "Dozable installs OpenCode's glibc build; its musl build is a separate package, not used yet",
+          "with" : {
+            "libc" : "musl"
+          }
+        },
+        {
+          "reason" : "OpenCode has no musl build — choose a Debian-based base (not Alpine)",
+          "with" : {
+            "base" : "alpine"
+          }
+        }
+      ],
+      "publisher" : "Anomaly",
+      "qualified" : "anomalyco/opencode@1",
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "api.anthropic.com"
+          },
+          {
+            "host" : "api.openai.com"
+          },
+          {
+            "host" : "api.x.ai",
+            "paths" : [
+              "/v1/models",
+              "/v1/chat/completions",
+              "/v1/responses"
+            ]
+          },
+          {
+            "host" : "generativelanguage.googleapis.com"
+          },
+          {
+            "host" : "openrouter.ai"
+          },
+          {
+            "host" : "ai-gateway.vercel.sh"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "since" : "0.34.0",
+      "status" : "supported",
+      "tags" : [
+        {
+          "level" : "verified",
+          "tag" : "multi-vendor-models"
+        },
+        {
+          "level" : "verified",
+          "tag" : "gateway:openrouter"
+        },
+        {
+          "level" : "documented",
+          "tag" : "api-key"
+        },
+        {
+          "level" : "documented",
+          "tag" : "vendor-sign-in"
+        },
+        {
+          "level" : "no",
+          "tag" : "no-account"
+        },
+        {
+          "level" : "unknown",
+          "tag" : "free-tier"
+        },
+        {
+          "level" : "no",
+          "tag" : "status"
+        },
+        {
+          "level" : "verified",
+          "tag" : "resume"
+        },
+        {
+          "level" : "no",
+          "tag" : "musl"
+        },
+        {
+          "level" : "documented",
+          "tag" : "open-source"
+        },
+        {
+          "level" : "verified",
+          "tag" : "headless"
+        }
+      ],
+      "terms" : "Your API key of the provider or gateway you choose (xAI by default).",
+      "title" : "OpenCode",
+      "try" : "doz try opencode@1"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+        {
+          "checked" : "2026-10-14",
+          "keys_page" : "https://console.x.ai/",
+          "kind" : "api-key",
+          "note" : "OpenCode 2 works with many providers; Dozable offers it on an xAI key (XAI_API_KEY, model xai/grok-build-0.1) for now.",
+          "provider" : "xai"
+        },
+        {
+          "checked" : "2026-10-26",
+          "keys_page" : "https://opencode.ai/auth",
+          "kind" : "api-key",
+          "note" : "An OpenCode key (OPENCODE_API_KEY) — one key for OpenCode Zen (pay as you go: opencode/…) and OpenCode Go (the subscription: opencode-go/…).",
+          "provider" : "opencode"
+        },
+        {
+          "account" : "an OpenCode Zen, Anthropic, OpenAI or GitHub Copilot account",
+          "checked" : "2026-10-14",
+          "kind" : "vendor-sign-in",
+          "note" : "OpenCode can sign in itself (opencode auth login); that sign-in would live in the sandbox's own state, not on the Mac — Dozable does not offer it yet."
+        }
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "default_base" : "debian",
+      "gateways" : [
+        {
+          "gateway" : "openrouter",
+          "level" : "documented",
+          "offered" : true
+        }
+      ],
+      "homepage" : "https://github.com/anomalyco/opencode",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5A7 8.5 0 1 0 24 32.5A7 8.5 0 1 0 24 15.5",
+        "id" : "opencode",
+        "kind" : "product",
+        "mono" : "icons/opencode.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "opencode2",
+      "install" : {
+        "kind" : "npm-platform-binary",
+        "source" : "@opencode/cli",
+        "version" : "2.0.29"
+      },
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "xai"
+        }
+      ],
+      "kind" : "agent",
+      "limits" : [
+        {
+          "reason" : "Dozable installs OpenCode 2's glibc build; its musl build is a separate package, not used yet",
+          "with" : {
+            "libc" : "musl"
+          }
+        },
+        {
+          "reason" : "OpenCode 2 has no musl build — choose a Debian-based base (not Alpine)",
+          "with" : {
+            "base" : "alpine"
+          }
+        }
+      ],
+      "publisher" : "Anomaly",
+      "qualified" : "anomalyco/opencode",
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "api.x.ai"
+          },
+          {
+            "host" : "api.openai.com"
+          },
+          {
+            "host" : "api.anthropic.com"
+          },
+          {
+            "host" : "openrouter.ai"
+          },
+          {
+            "host" : "ai-gateway.vercel.sh"
+          },
+          {
+            "host" : "opencode.ai",
+            "paths" : [
+              "/zen/v1/chat/completions",
+              "/zen/v1/responses",
+              "/zen/v1/messages",
+              "/zen/v1/models/",
+              "/zen/go/v1/chat/completions",
+              "/zen/go/v1/responses",
+              "/zen/go/v1/messages",
+              "/inference/openai/v1/chat/completions",
+              "/inference/openai/v1/responses",
+              "/inference/anthropic/v1/messages",
+              "/inference/google/v1beta/models/",
+              "/inference/go/openai/v1/chat/completions",
+              "/inference/go/openai/v1/responses",
+              "/inference/go/anthropic/v1/messages",
+              "/inference/go/google/v1beta/models/"
+            ]
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "since" : "0.34.0",
+      "status" : "supported",
+      "tags" : [
+        {
+          "level" : "documented",
+          "tag" : "multi-vendor-models"
+        },
+        {
+          "level" : "documented",
+          "tag" : "gateway:openrouter"
+        },
+        {
+          "level" : "documented",
+          "tag" : "api-key"
+        },
+        {
+          "level" : "documented",
+          "tag" : "vendor-sign-in"
+        },
+        {
+          "level" : "no",
+          "tag" : "no-account"
+        },
+        {
+          "level" : "unknown",
+          "tag" : "free-tier"
+        },
+        {
+          "level" : "no",
+          "tag" : "status"
+        },
+        {
+          "level" : "verified",
+          "tag" : "resume"
+        },
+        {
+          "level" : "no",
+          "tag" : "musl"
+        },
+        {
+          "level" : "documented",
+          "tag" : "open-source"
+        },
+        {
+          "level" : "documented",
+          "tag" : "headless"
+        }
+      ],
+      "terms" : "Your xAI API key — a key from console.x.ai; or your OpenCode key (OpenCode Zen or OpenCode Go); or no key, with OpenCode Zen's free models (each model's data terms are in its docs).",
+      "title" : "OpenCode 2",
+      "try" : "doz try opencode"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "personal-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/FoundationAgents/OpenManus",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5A7 8.5 0 1 0 24 32.5A7 8.5 0 1 0 24 15.5",
+        "id" : "letter-o",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "openmanus",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "FoundationAgents",
+      "reason" : "it has no release to pin (it runs from a checkout of its source), and its browser tool needs a headless Chromium in the image",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "OpenManus"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "terminal-tool",
+        "local-models"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/ggozad/oterm",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5A7 8.5 0 1 0 24 32.5A7 8.5 0 1 0 24 15.5",
+        "id" : "letter-o",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "oterm",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "ggozad",
+      "reason" : "a terminal client for Ollama: needs an Ollama it can reach — in the sandbox (a background service) or on the Mac",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "oterm"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://console.anthropic.com/settings/keys",
+          "kind" : "api-key",
+          "note" : "pi reads ANTHROPIC_API_KEY; a Claude subscription is never given to it. On Anthropic it picks its own model unless you choose one (--model).",
+          "provider" : "anthropic"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://platform.openai.com/api-keys",
+          "kind" : "api-key",
+          "note" : "pi through OpenAI: doz try pi --provider openai (or choose it in the try setup); the model with --model.",
+          "provider" : "openai"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://console.x.ai/",
+          "kind" : "api-key",
+          "note" : "pi through xAI: doz try pi --provider xai (or choose it in the try setup); the model with --model.",
+          "provider" : "xai"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://aistudio.google.com/apikey",
+          "kind" : "api-key",
+          "note" : "pi through Google AI: doz try pi --provider google (or choose it in the try setup); the model with --model.",
+          "provider" : "google"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://openrouter.ai/keys",
+          "kind" : "api-key",
+          "note" : "pi's own OpenRouter provider reads OPENROUTER_API_KEY (its docs/providers.md); Dozable gives its session --model openrouter/MODEL.",
+          "provider" : "openrouter"
+        },
+        {
+          "checked" : "2026-10-16",
+          "keys_page" : "https://vercel.com/docs/ai-gateway/authentication-and-byok",
+          "kind" : "api-key",
+          "note" : "pi through Vercel AI Gateway: doz try pi --gateway vercel-ai-gateway (or choose it in the try setup); the model with --model.",
+          "provider" : "vercel-ai-gateway"
+        }
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "default_base" : "node",
+      "gateways" : [
+        {
+          "gateway" : "openrouter",
+          "level" : "verified",
+          "offered" : true
+        }
+      ],
+      "homepage" : "https://github.com/earendil-works/pi",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M16 4.5H32L43.5 16V32L32 43.5H16L4.5 32V16Z M17 20.6L31 20.6M21.2 20.6L21.2 32.5M27.08 20.6L27.08 29.95Q27.08 32.5 29.6 32.5",
+        "id" : "pi",
+        "kind" : "product",
+        "mono" : "icons/pi.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "pi",
+      "install" : {
+        "kind" : "builtin",
+        "source" : "@earendil-works/pi-coding-agent",
+        "version" : "0.84.1"
+      },
+      "keys" : [
+        {
+          "accounts" : [
+            "api-key"
+          ],
+          "provider" : "anthropic"
+        }
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Mario Zechner",
+      "qualified" : "earendil-works/pi",
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+
+        ],
+        "update" : [
+          {
+            "host" : "pi.dev"
+          },
+          {
+            "host" : "registry.npmjs.org",
+            "paths" : [
+              "/@earendil-works/pi-coding-agent",
+              "/@earendil-works%2fpi-coding-agent",
+              "/@earendil-works%2Fpi-coding-agent"
+            ]
+          }
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+        {
+          "level" : "verified",
+          "tag" : "multi-vendor-models"
+        },
+        {
+          "level" : "verified",
+          "tag" : "gateway:openrouter"
+        },
+        {
+          "level" : "documented",
+          "tag" : "api-key"
+        },
+        {
+          "level" : "no",
+          "tag" : "vendor-sign-in"
+        },
+        {
+          "level" : "no",
+          "tag" : "no-account"
+        },
+        {
+          "level" : "unknown",
+          "tag" : "free-tier"
+        },
+        {
+          "level" : "verified",
+          "tag" : "status"
+        },
+        {
+          "level" : "verified",
+          "tag" : "resume"
+        },
+        {
+          "level" : "verified",
+          "tag" : "musl"
+        },
+        {
+          "level" : "documented",
+          "tag" : "open-source"
+        },
+        {
+          "level" : "documented",
+          "tag" : "headless"
+        }
+      ],
+      "title" : "pi",
+      "try" : "doz try pi"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "personal-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/sipeed/picoclaw",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L25.4 15.5Q31 15.5 31 20.09Q31 24.85 25.4 24.85L17 24.85",
+        "id" : "letter-p",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "picoclaw",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Sipeed",
+      "reason" : "it reads its model keys only from its own key file, where Dozable cannot put a key's placeholder yet; its gateway needs a background service",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "PicoClaw"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "browser-agent",
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/microsoft/playwright-mcp",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L25.4 15.5Q31 15.5 31 20.09Q31 24.85 25.4 24.85L17 24.85",
+        "id" : "letter-p",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "playwright-mcp",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Microsoft",
+      "reason" : "needs a headless Chromium in the image, and an MCP bridge so a client on the Mac can use it",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Playwright MCP"
+    },
+    {
+      "aliases" : [
+        "pool",
+        "poolside"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/poolsideai/pool",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L25.4 15.5Q31 15.5 31 20.09Q31 24.85 25.4 24.85L17 24.85",
+        "id" : "letter-p",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "poolside-pool",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Poolside",
+      "reason" : "installing it means agreeing to Poolside's end-user licence on your behalf, which needs a reading first; and it runs on Poolside's own models with a Poolside key or an OpenRouter sign-in",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Poolside pool"
+    },
+    {
+      "aliases" : [
+        "qoder",
+        "qodercli"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://docs.qoder.com/cli",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M24 15.5A7 8.5 0 1 0 24 32.5A7 8.5 0 1 0 24 15.5M25.4 27.4L30.3 32.5",
+        "id" : "letter-q",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "qoder-cli",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Qoder (Alibaba)",
+      "reason" : "it signs in with a Qoder personal access token, which Dozable cannot hold for you yet; its own-model mode is set inside its interface and may need a paid plan",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Qoder CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/esengine/DeepSeek-Reasonix",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L17 15.5L25.4 15.5Q31 15.5 31 20.09Q31 24.85 25.4 24.85L17 24.85M24 24.85L31 32.5",
+        "id" : "letter-r",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "reasonix",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "esengine",
+      "reason" : "it reads provider keys only from its own ~/.reasonix/.env file, never the environment, where the placeholder Dozable gives each session would go stale — Dozable has no per-session way to write it there yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Reasonix"
+    },
+    {
+      "aliases" : [
+        "acli",
+        "rovodev"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://support.atlassian.com/rovo/docs/rovo-dev-cli-commands",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "letter-a",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "rovo-dev",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Atlassian",
+      "reason" : "it runs only on Atlassian's service, with an Atlassian API token and Rovo credits, which Dozable cannot hold for you yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Atlassian Rovo Dev CLI"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "chat-app"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/SillyTavern/SillyTavern",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M30.3 18.05Q28.2 15.5 24 15.5Q17.7 15.5 17.7 20.09Q17.7 24 24 24Q30.3 24 30.3 28.25Q30.3 32.5 24 32.5Q19.8 32.5 17.7 29.95",
+        "id" : "letter-s",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "sillytavern",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "SillyTavern",
+      "reason" : "a web app: needs its port forwarded to the Mac's browser and a background service",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "SillyTavern"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "workflow"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/simstudioai/sim",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M30.3 18.05Q28.2 15.5 24 15.5Q17.7 15.5 17.7 20.09Q17.7 24 24 24Q30.3 24 30.3 28.25Q30.3 32.5 24 32.5Q19.8 32.5 17.7 29.95",
+        "id" : "letter-s",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "sim",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Sim Studio",
+      "reason" : "a web app run with Docker Compose: needs Docker inside the sandbox and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Sim"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "browser-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/Skyvern-AI/skyvern",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M30.3 18.05Q28.2 15.5 24 15.5Q17.7 15.5 17.7 20.09Q17.7 24 24 24Q30.3 24 30.3 28.25Q30.3 32.5 24 32.5Q19.8 32.5 17.7 29.95",
+        "id" : "letter-s",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "skyvern",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Skyvern",
+      "reason" : "needs a headless Chromium in the image, a background service and its web UI's port forwarded to the Mac",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Skyvern"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "browser-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/steel-dev/steel-browser",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M30.3 18.05Q28.2 15.5 24 15.5Q17.7 15.5 17.7 20.09Q17.7 24 24 24Q30.3 24 30.3 28.25Q30.3 32.5 24 32.5Q19.8 32.5 17.7 29.95",
+        "id" : "letter-s",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "steel-browser",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Steel",
+      "reason" : "a browser API server shipped as a Docker image: needs Docker images as a base, a headless Chromium and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Steel Browser"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/stepfun-ai/Step-Code",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M30.3 18.05Q28.2 15.5 24 15.5Q17.7 15.5 17.7 20.09Q17.7 24 24 24Q30.3 24 30.3 28.25Q30.3 32.5 24 32.5Q19.8 32.5 17.7 29.95",
+        "id" : "letter-s",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "step-code",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "StepFun",
+      "reason" : "it runs only on StepFun's models with a StepFun key — a provider Dozable does not offer yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Step Code"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/supercorp-ai/supergateway",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M30.3 18.05Q28.2 15.5 24 15.5Q17.7 15.5 17.7 20.09Q17.7 24 24 24Q30.3 24 30.3 28.25Q30.3 32.5 24 32.5Q19.8 32.5 17.7 29.95",
+        "id" : "letter-s",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "supergateway",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Supercorp",
+      "reason" : "it serves an MCP server over HTTP for clients elsewhere: needs a forwarded port (or an MCP bridge) and the servers from npm or PyPI",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Supergateway"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/MODSetter/SurfSense",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M30.3 18.05Q28.2 15.5 24 15.5Q17.7 15.5 17.7 20.09Q17.7 24 24 24Q30.3 24 30.3 28.25Q30.3 32.5 24 32.5Q19.8 32.5 17.7 29.95",
+        "id" : "letter-s",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "surfsense",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "MODSetter",
+      "reason" : "a multi-service web app: needs Docker inside the sandbox and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "SurfSense"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "mcp"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/stacklok/toolhive",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L31 15.5M24 15.5L24 32.5",
+        "id" : "letter-t",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "toolhive",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Stacklok",
+      "reason" : "it runs each MCP server in a container: needs Docker or Podman inside the sandbox",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "ToolHive"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "coding-agent",
+      "categories" : [
+        "coding-agent"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/bytedance/trae-agent",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L31 15.5M24 15.5L24 32.5",
+        "id" : "letter-t",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "trae-agent",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "ByteDance",
+      "reason" : "it has no releases: it runs from a git checkout set up with uv, which Dozable cannot pin and install yet",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Trae Agent"
+    },
+    {
+      "aliases" : [
+        "perplexica"
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "research"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/ItzCrazyKns/Vane",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L24 32.5L31 15.5",
+        "id" : "letter-v",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "vane",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "ItzCrazyKns",
+      "reason" : "a web app shipped as a Docker image with SearXNG: needs Docker images as a base and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Vane"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "local-models"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/ggml-org/whisper.cpp",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L20.5 32.5L24 22.3L27.5 32.5L31 15.5",
+        "id" : "letter-w",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "whisper-cpp",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "ggml",
+      "reason" : "it runs a speech model inside the sandbox, with no API key: Dozable's tools all talk to a model provider today, and its models are downloads",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "whisper.cpp"
+    },
+    {
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "catalog_kind" : "ai-tool",
+      "categories" : [
+        "workflow"
+      ],
+      "checked" : "2026-10-14",
+      "gateways" : [
+
+      ],
+      "homepage" : "https://github.com/windmill-labs/windmill",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 15.5L20.5 32.5L24 22.3L27.5 32.5L31 15.5",
+        "id" : "letter-w",
+        "kind" : "generated",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "windmill",
+      "keys" : [
+
+      ],
+      "kind" : "agent",
+      "limits" : [
+
+      ],
+      "publisher" : "Windmill Labs",
+      "reason" : "a platform with PostgreSQL, run with Docker: needs Docker inside the sandbox and a forwarded port",
+      "status" : "coming",
+      "tags" : [
+
+      ],
+      "title" : "Windmill"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "homepage" : "https://platform.claude.com/settings/keys",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M14 4.5H34A9.5 9.5 0 0 1 43.5 14V34A9.5 9.5 0 0 1 34 43.5H14A9.5 9.5 0 0 1 4.5 34V14A9.5 9.5 0 0 1 14 4.5Z M17 32.5L24 15.5L31 32.5M19.8 26.04L28.2 26.04",
+        "id" : "anthropic",
+        "kind" : "vendor",
+        "mono" : "icons/anthropic.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "anthropic",
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "anthropic"
+        }
+      ],
+      "kind" : "provider",
+      "limits" : [
+
+      ],
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "api.anthropic.com"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Anthropic"
+    },
+    {
+      "agents" : [
+
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "homepage" : "https://aistudio.google.com/apikey",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M24 4L41.3 14V34L24 44L6.7 34V14Z M27.89 19.4A5.5 6.5 0 1 0 28.76 27.25L28.76 24.65L24.55 24.65",
+        "id" : "google",
+        "kind" : "vendor",
+        "mono" : "icons/google.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "google",
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "google"
+        }
+      ],
+      "kind" : "provider",
+      "limits" : [
+
+      ],
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "generativelanguage.googleapis.com"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Google AI (Gemini API)"
+    },
+    {
+      "agents" : [
+
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "google-stitch",
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "google-stitch"
+        }
+      ],
+      "kind" : "provider",
+      "limits" : [
+
+      ],
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "stitch.googleapis.com"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Google Stitch"
+    },
+    {
+      "agents" : [
+        "codex"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "homepage" : "https://platform.openai.com/api-keys",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M24 4.5A19.5 19.5 0 1 1 24 43.5A19.5 19.5 0 1 1 24 4.5Z M18 17A4.5 7 0 1 0 18 31A4.5 7 0 1 0 18 17 M25.5 31L30 17L34.5 31M27.3 25.68L32.7 25.68",
+        "id" : "openai",
+        "kind" : "vendor",
+        "mono" : "icons/openai.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "openai",
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "openai"
+        }
+      ],
+      "kind" : "provider",
+      "limits" : [
+
+      ],
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "api.openai.com"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "OpenAI"
+    },
+    {
+      "agents" : [
+
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "homepage" : "https://opencode.ai/auth",
+      "id" : "opencode",
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "opencode"
+        }
+      ],
+      "kind" : "provider",
+      "limits" : [
+
+      ],
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "opencode.ai"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "OpenCode"
+    },
+    {
+      "agents" : [
+
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "homepage" : "https://openrouter.ai/keys",
+      "id" : "openrouter",
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "openrouter"
+        }
+      ],
+      "kind" : "provider",
+      "limits" : [
+
+      ],
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "openrouter.ai"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "OpenRouter"
+    },
+    {
+      "agents" : [
+        "opencode",
+        "opencode2"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "homepage" : "https://console.x.ai/",
+      "icon" : {
+        "allowed" : "lettermark",
+        "d" : "M24 3.5L44.5 24L24 44.5L3.5 24Z M18.5 17.5L29.5 30.5M29.5 17.5L18.5 30.5",
+        "id" : "xai",
+        "kind" : "vendor",
+        "mono" : "icons/xai.svg",
+        "stroke" : 2.5,
+        "viewBox" : "0 0 48 48"
+      },
+      "id" : "xai",
+      "keys" : [
+        {
+          "accounts" : [
+            "key"
+          ],
+          "provider" : "xai"
+        }
+      ],
+      "kind" : "provider",
+      "limits" : [
+
+      ],
+      "reach" : {
+        "excluded" : [
+
+        ],
+        "model" : [
+          {
+            "host" : "api.x.ai"
+          }
+        ],
+        "update" : [
+
+        ]
+      },
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "xAI"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "alpine",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/alpine",
+        "version" : "alpine:3.20"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+        {
+          "reason" : "OpenCode has no musl build — choose a Debian-based base (not Alpine)",
+          "with" : {
+            "agent" : "opencode"
+          }
+        },
+        {
+          "reason" : "OpenCode 2 has no musl build — choose a Debian-based base (not Alpine)",
+          "with" : {
+            "agent" : "opencode2"
+          }
+        }
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Alpine"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "debian",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/debian",
+        "version" : "debian:bookworm"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Debian"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "dotnet",
+      "install" : {
+        "kind" : "oci",
+        "source" : "mcr.microsoft.com/dotnet/sdk",
+        "version" : "mcr.microsoft.com/dotnet/sdk:9.0"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : ".NET"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "go",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/golang",
+        "version" : "golang:1.25-bookworm"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Go"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "java",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/eclipse-temurin",
+        "version" : "eclipse-temurin:21-jdk"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Java"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "node",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/node",
+        "version" : "node:22-bookworm"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Node.js"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "python",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/python",
+        "version" : "python:3.13-bookworm"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Python"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "ruby",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/ruby",
+        "version" : "ruby:3.4-bookworm"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Ruby"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "rust",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/rust",
+        "version" : "rust:1-bookworm"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Rust"
+    },
+    {
+      "agents" : [
+        "claude-code",
+        "codex",
+        "opencode",
+        "opencode2",
+        "pi"
+      ],
+      "aliases" : [
+
+      ],
+      "auth" : [
+
+      ],
+      "gateways" : [
+
+      ],
+      "id" : "ubuntu",
+      "install" : {
+        "kind" : "oci",
+        "source" : "docker.io/library/ubuntu",
+        "version" : "ubuntu:24.04"
+      },
+      "keys" : [
+
+      ],
+      "kind" : "base",
+      "limits" : [
+
+      ],
+      "status" : "supported",
+      "tags" : [
+
+      ],
+      "title" : "Ubuntu"
+    }
+  ],
+  "format" : "dozable-directory/v1",
+  "generated" : "2026-10-15T00:00:00Z"
+}
